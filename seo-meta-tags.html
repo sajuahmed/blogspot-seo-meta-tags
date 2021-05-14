@@ -1,0 +1,47 @@
+ <!-- All In One SEO Pack for BlogSpot 2021 Edition By: https://www.wikipoka.com Starts Here -->
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<title><data:blog.pageName/> - <data:blog.title/></title>
+</b:if>
+<b:if cond='data:blog.metaDescription != &quot;&quot;'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<meta content='noindex, nofollow' name='robots'/>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta expr:content='data:blog.title' name='keywords'/>
+<meta content='index, follow' name='robots'/>
+</b:if>
+<b:else/>
+<b:if cond='data:blog.pageTitle != data:blog.title'>
+<meta expr:content='data:blog.pageName' name='keywords'/>
+</b:if>
+</b:if>
+<meta content='GOOGLE VERIFICATION CODE' name='google-site-verification'/>
+<meta content='BING VERIFICATION CODE' name='msvalidate.01'/>
+<meta content='ALEXA VERIFICATION CODE' name='alexaVerifyID'/>
+<meta content='YANDEX VERIFICATION CODE' name='yandex-verification'/>
+
+<meta content='global' name='distribution'/>
+<meta content='1 days' name='revisit'/>
+<meta content='1 days' name='revisit-after'/>
+<meta content='document' name='resource-type'/>
+<meta content='all' name='audience'/>
+<meta content='general' name='rating'/>
+<meta content='all' name='robots'/>
+<meta content='en-us' name='language'/>
+<meta content='USA' name='country'/>
+<meta content='YOUR FACEBOOK ID' property='fb:admins'/>
+<meta content='TWITTER USERNAME FOR YOUR BLOG' name='twitter:site'/>
+<meta content='YOUR TWITTER USERNAME' name='twitter:creator'/>
+
+<meta content='YOUR NAME' name='author'/>
+<meta content='YOUR EMAIL' name='email'/>
+
+<link href='' rel='author'/>
+<link href='' rel='publisher'/>
+</b:if>
+<!-- All In One SEO Pack for BlogSpot 2021 Edition By: https://www.wikipoka.com Ends Here -->
