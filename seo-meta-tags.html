@@ -45,3 +45,94 @@
 <link href='' rel='publisher'/>
 </b:if>
 <!-- All In One SEO Pack for BlogSpot 2021 Edition By: https://www.wikipoka.com Ends Here -->
+
+
+<!-- 2020 SEO Pack for Blogger by www.wikipoka.com-->
+
+<b:include data='blog' name='all-head-content'/>
+
+<meta charset='utf-8'/>
+
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+
+<meta content='blogger' name='generator'/>
+
+
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+
+<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+
+<link expr:href='data:blog.url' rel='canonical'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<title><data:blog.pageName/> - <data:blog.title/></title>
+</b:if></b:if>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<title>Page Not Found - <data:blog.title/></title>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<meta content='noindex' name='robots'/>
+</b:if>
+<b:if cond='data:blog.searchLabel'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.isMobile'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+</b:if></b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta content='YOUR, KEYWORDS, HERE' name='keywords'/></b:if>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+</b:if></b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<b:if cond='data:blog.url'>
+<meta expr:content='data:blog.url' property='og:url'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.pageName'>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+</b:if>
+<meta content='website' property='og:type'/></b:if></b:if></b:if>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='data:blog.postImageThumbnailUrl' property='og:image'/>
+<b:else/></b:if>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://plus.google.com/GOOGLE+ID/posts' rel='publisher'/>
+<link href='https://plus.google.com/GOOGLE+ID/about' rel='author'/>
+<link href='https://plus.google.com/GOOGLE+ID' rel='me'/>
+<meta content='GOOGLE-WEBMASTER-CODE' name='google-site-verification'/>
+<meta content='BING-WEBMASTER-CODE' name='msvalidate.01'/>
+<meta content='ALEXA-VERIFY-CODE' name='alexaVerifyID'/>
+<meta content='chicago, USA' name='geo.placename'/>
+<meta content='YOUR-NAME' name='Author'/>
+<meta content='general' name='rating'/>
+<meta content='USA' name='geo.country'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='english' name='language'/>
+<meta content='https://www.facebook.com/USER_NAME' property='article:author'/>
+<meta content='https://www.facebook.com/PAGE_USER_NAME' property='article:publisher'/>
+<meta content='FACEBOOK-APP-ID' property='fb:app_id'/>
+<meta content='FACEBOOK-ADMIN-ID' property='fb:admins'/>
+<meta content='@geeksblogger' name='twitter:site'/>
+<meta content='@geeksblogger' name='twitter:creator'/>
+<meta content='all' name='robots'/>
+<meta content='index, follow' name='robots'/>
+<meta content='snippet' name='googlebot'/>
+<meta content='noodp' name='googlebot'/>
+<meta content='all' name='audience'/>
+<!-- End 2020 SEO Pack for Blogger by www.wikipoka.com -->
